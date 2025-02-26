@@ -150,3 +150,41 @@ details>summary {
   details[open] summary:after {
     content: " ";
   }
+
+.size_section{
+    display: flex;
+    flex-direction: column;
+    padding: 24px 0 0 0;
+    gap: 16px;
+}
+
+.size_section p{
+    font-family: "Sora-semiBold"; 
+    font-size: 16px;
+    color: var(--color-9);
+
+}
+
+.size_section .size_selector{
+    display: flex;
+    justify-content: space-between;
+}
+
+.size_section .size_selector a{
+    font-family: "Sora-Regular";
+    font-size: 14px;
+    color: var(--color-9);
+    text-decoration: none;
+    background-color: var(--color-14);
+    /* width: 96px;
+    height: 41px; */
+    border-radius: 12px;
+    padding: 10px 43px;
+    border: 1px solid var(--color-4);
+}
+
+.size_section .size_selector a:active{
+    border-color: var(--color-1);
+    background-color: var(--color-5);
+    color: var(--color-1);
+}
