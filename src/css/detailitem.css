@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: var(--color-12);
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -25,4 +29,86 @@ header img:first-child{
 header img:last-child{
     padding: 13px 11.53px 11px 12px;
     object-fit: cover;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px 24px 24px;
+}
+
+main >img{
+    border-radius: 16px;
+
+}
+
+main .coffee_atributes{
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+main .coffee_atributes .Name_Coffee{
+    display: flex;
+    flex-direction: column;
+}
+
+main .coffee_atributes .Name_Coffee h1{
+    font-family: "Sora-semiBold";
+    font-size: 20px;
+    color: var(--color-9);
+}
+
+main .coffee_atributes .Name_Coffee p{
+    font-family: "Sora-Regular";
+    font-size: 12px;
+    color: var(--color-10);
+    margin-top: 4px;
+}
+
+main .coffee_atributes .Name_Coffee .rating{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 13px;
+}
+
+main .coffee_atributes .Name_Coffee .rating img{
+    padding-top: 6px;
+
+}
+
+
+main .coffee_atributes .Name_Coffee .rating .rating_numbers{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+main .coffee_atributes .Name_Coffee .rating .rating_numbers p:first-child{
+    color: var(--color-11);
+    font-size: 16px;
+    font-family: "Sora-semiBold";
+}
+
+main hr{
+    border: none;
+    background-color: var(--color-4);
+    height: 1px;
+    margin:16px;
+    width: 295px;
+}
+
+main .coffee_atributes .features{
+    display: flex;
+    gap: 12px;
+}
+main .coffee_atributes .features img{
+    padding: 12px;
+    background-color: var(--color-13);
+    border-radius: 12px;
 }
