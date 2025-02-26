@@ -112,3 +112,41 @@ main .coffee_atributes .features img{
     background-color: var(--color-13);
     border-radius: 12px;
 }
+
+main .section_description{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+main .section_description p{
+    font-family: "Sora-SemiBold";
+    font-size: 16px;
+    color: var(--color-9);
+}
+
+main .section_description summary{
+    font-family: "Sora-Light";
+    font-size: 14px;
+    color: var(--color-10);
+    line-height: 150%;
+}
+
+main .section_description details p {
+    font-family: "Sora-Light";
+    font-size: 14px;
+    color: var(--color-10);
+    line-height: 150%;
+}
+
+details>summary {
+    list-style: none;
+  }
+  summary::after {
+    content: '..Read more';
+    color: var(--color-1);
+    font-family: "Sora-semiBold";
+  }
+  details[open] summary:after {
+    content: " ";
+  }
