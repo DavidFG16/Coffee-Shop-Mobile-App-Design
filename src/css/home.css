@@ -1,0 +1,144 @@
+@import url(../css/variables.css);
+
+/**************** Header ******************/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background: linear-gradient(180deg, #111111 0%, #313131 100%);
+}
+/*********************Location*****************************/
+.location_d{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 24px 190px 24px 24px;
+}
+.location_p{
+    font-family: "Sora-Regular";
+    font-size: 12px;
+    color: var(--color-6);
+}
+.location_a{
+    display: flex;
+    flex-direction: row;
+    width: 161px;
+    height: 21px;
+    gap: 4px;
+}
+.location_a p{
+    font-family: "Sora-SemiBold";
+    font-size: 14px;
+    color: var(--color-7);
+}
+/**************************************************/
+/**************** Form Busqueda ******************/
+.form__busqueda {
+    padding: 0px 24px 0px 24px;
+    overflow: hidden;
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+.input__logo {
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.input__logo::before {
+    content: url(../storage/img/Search-icon.png);
+    position: absolute;
+    padding-left: 10px;
+}
+
+.form__busqueda input[type="text"] {
+    box-sizing: content-box;
+    flex: 1;
+    height: 100%;
+    font-family: "Sora-Regular";
+    font-size: 14px;
+    color: var(--color-4);
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    padding: 0 10px 0 40px;
+    box-shadow: 0px 4px 19px var(--color-shadow-1);
+    background-color: var(--color-8);
+}
+
+.form__busqueda input[type="text"]::placeholder {
+    color: var(--color-6);
+}
+
+.input__filtro {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.input__filtro::after {
+    content: url(../storage/img/Options-icon.png);
+    width: 24px;
+    height: 24px;
+    display: flex;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.form__busqueda input[type="submit"] {
+    flex: 1;
+    width: 52px;
+    height: 52px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    background: var(--color-1);
+}
+/**************************************************/
+/**************** Banner ******************/
+.banner{
+    margin: 24px;
+    background: url(../storage/img/Banner1.png) no-repeat;
+    width: 327px;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    width: 204px;
+    height: 114px;
+    margin: 13px 99px 13px 24px;
+}
+.banner a{
+    font-family: "Sora-SemiBold";
+    font-size: 14px;
+    color: var(--color-9);
+    text-decoration: none;
+    width: 60px;
+    height: 26px;
+    background-color: var(--color-10);
+    border-radius: 8px;
+    padding: 4px 6px 4px 6px;
+}
+.banner p{
+    margin-top: 8px;
+    font-family: "Sora-SemiBold";
+    font-size: 32px;
+    color: var(--color-9);
+    width: 203px;
+    height: 80px;
+    box-shadow: linear-gradient(180deg, #111111 0%, #313131 100%);
+}
