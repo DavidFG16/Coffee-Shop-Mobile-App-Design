@@ -1,0 +1,167 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: greenyellow;
+}
+/********** header ***********/
+header{
+    background-color: orange;
+}
+.header{
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header__logo{
+    /* background-color: red; */
+    width: 327px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 68px;
+}
+.header__logo img{
+    background-color: var(--color-7);
+    padding: 10px;
+    border-radius: 10px;
+}
+.header__map{ /* Solucionar sobreposición con el main, esquinas inferiores verdes */
+    background-color: palevioletred;
+    width: 100%;
+    height: 490px;
+}
+.header__map iframe{
+    width: 100%;
+    height: 100%;
+}
+/****************************/
+/*********** main ***********/
+main{
+    background-color: yellow;
+    border-radius: 15px 15px 0 0;
+}
+.main{
+    background-color: aquamarine;
+    border-radius: 15px 15px 0 0;
+}
+.main__top__header{
+    background-color: var(--color-8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px 15px 0 0;
+}
+.main__top__header div{
+    background-color: var(--color-4);
+    height: 5px;
+    width: 45px;
+    margin: 16px 0 15px 0;
+    border-radius: 5px;
+}
+.main__top__text{
+    background-color: var(--color-8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.main__top__text h1{
+    /* background-color: rgb(220, 215, 122); */
+    font-family: "Sora-SemiBold";
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--color-9);
+}
+.main__top__text p{
+    /* background-color: rgb(220, 122, 122); */
+    font-family: "Sora-Regular";
+    font-size: 12px;
+    line-height: 150%;
+    margin-top: 2px;
+    color: var(--color-10);
+}
+.main__top__text strong{
+    /* background-color: rgb(132, 220, 122); */
+    font-family: "Sora-SemiBold";
+    font-size: 12px;
+    line-height: 150%;
+    margin-top: 2px;
+    color: var(--color-9);
+}
+/** Queda pendiente hacerla con Javascript **/
+/* .main__top progress{
+    background-color: whitesmoke;
+}
+.main__top progress::-webkit-progress-bar{
+    background-color: rgb(214, 214, 214);
+}
+.main__top progress::-webkit-progress-value{
+    background-color: rgb(18, 187, 55);
+} */
+.main__top__bar{ /* Cada linea tiene 10px entre ellas */
+    background-color: var(--color-8);
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 16px;
+}
+.main__top__bar div{
+    background-color: var(--color-4);
+    height: 4px;
+    width: 71.25px;
+    border-radius: 5px;
+}
+.main__top__bar div:nth-child(1),
+.main__top__bar div:nth-child(2),
+.main__top__bar div:nth-child(3){
+    background-color: var(--color-6);
+}
+.main__middle{
+    background-color: rgb(122, 220, 220);
+}
+.main__middle__img{
+    background-color: rgb(224, 230, 172);
+}
+.main__middle__img img{
+    background-color: rgb(172, 224, 230);
+}
+.main__middle__text{
+    background-color: rgb(224, 172, 230);
+}
+.main__middle__text p:first-child{
+    background-color: rgb(230, 189, 172);
+}
+.main__middle__text p:last-child{
+    background-color: rgb(186, 172, 230);
+}
+.main__bottom{
+    background-color: rgb(129, 220, 122);
+}
+.main__bottom__img{
+    background-color: rgb(34, 7, 184);
+}
+.main__bottom__img img{
+    background-color: rgb(184, 34, 7);
+}
+.main__bottom__text{
+    background-color: rgb(218, 163, 116);
+}
+.main__bottom__text p:first-child{
+    background-color: rgb(116, 218, 163);
+}
+.main__bottom__text p:last-child{
+    background-color: rgb(163, 116, 218);
+}
+.main__bottom__button{
+    background-color: rgb(218, 116, 116);
+}
+.main__bottom__button a{
+    background-color: rgb(116, 218, 116);
+}
