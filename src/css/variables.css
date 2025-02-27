@@ -4,10 +4,17 @@
     --color-3: #313131;
     --color-4: #E3E3E3;
     --color-5: #F9F2ED;
-    --color-7: #EDEDED;
-    --color-8: #FFFFFF;
-    --color-9: #242424;
-    --color-10:#A2A2A2;
+    --color-6: #050505;
+    --color-7: #FFFFFF;
+    --color-8: #A2A2A2;
+    --color-9: rgba(255, 255, 255, 0);
+    --color-10: rgb(0, 0, 0);
+    --color-11: #D8D8D8;
+    --color-12: #2A2A2A;
+    --color-13: #ED5151;
+    --color-14: #EDEDED;
+    --color-15: #242424;
+    -color-16: #EDEDED;
 }
 
 @font-face {
