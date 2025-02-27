@@ -14,7 +14,11 @@
     --color-13: #ED5151;
     --color-14: #EDEDED;
     --color-15: #242424;
-    -color-16: #EDEDED;
+    --color-16: #EDEDED;
+    --color-17: #F9F9F9;
+    --color-18:rgba(237, 237, 237, 0.35);
+    --color-19:#909090;
+    --color-20:linear-gradient(0deg, rgba(237,237,237,0.35) 0%, rgba(255,255,255,1) 100%);
 }
 
 @font-face {
