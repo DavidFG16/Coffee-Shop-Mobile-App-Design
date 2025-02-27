@@ -4,9 +4,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    /* background-color: var(--color-11); */
-}
 /********** header ***********/
 header{
     background-color: orange;
@@ -190,9 +187,6 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.main__bottom__img img{
-    /* background-color: rgb(184, 34, 7);   */
 }
 .main__bottom__text{
     /* background-color: rgb(218, 163, 116); */
