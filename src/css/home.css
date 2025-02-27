@@ -5,9 +5,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
 header{
     background: linear-gradient(180deg, #111111 0%, #313131 100%);
+    width: 100%;
+    height: 280px;
 }
 /*********************Location*****************************/
 .location_d{
@@ -104,16 +107,20 @@ header{
     border-radius: 12px;
     background: var(--color-1);
 }
-/**************************************************/
 /**************** Banner ******************/
 .banner{
-    margin: 24px;
+    margin-top: 70px;
+    margin-left: 28px;
+    margin-right: 24px;
+    margin-bottom: 24px;
     background: url(../storage/img/Banner1.png) no-repeat;
     width: 327px;
     height: 140px;
     display: flex;
     justify-content: space-between;
+    justify-content: center;
     border-radius: 16px;
+    overflow: hidden;
 }
 .description{
     display: flex;
@@ -133,12 +140,120 @@ header{
     border-radius: 8px;
     padding: 4px 6px 4px 6px;
 }
-.banner p{
+.description__text{
     margin-top: 8px;
+    width: 204px;
+    height: 80px;
+    position: relative;
+}
+.description__text__box1 p{
     font-family: "Sora-SemiBold";
     font-size: 32px;
     color: var(--color-9);
-    width: 203px;
-    height: 80px;
-    box-shadow: linear-gradient(180deg, #111111 0%, #313131 100%);
+    top: 0;
+    position: relative; /* Añadimos posición relativa para el texto */
+    z-index: 4; /* Aseguramos que el texto esté encima de la caja negra */
 }
+.description__text__box1 img{
+    position: absolute;
+    top: 15px;
+    left: 0;
+    z-index: 2;
+}
+.description__text__box2 p{
+    font-family: "Sora-SemiBold";
+    font-size: 32px;
+    color: var(--color-9);
+    top: 0;
+    position: relative; /* Añadimos posición relativa para el texto */
+    z-index: 4; /* Aseguramos que el texto esté encima de la caja negra */
+}
+.description__text__box2 img{
+    position: absolute;
+    top: 54px;
+    left: 0;
+    z-index: 2;
+}
+/*************************/
+/**************************************************/
+/**************** Main **************************/
+main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 20px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+/**************** nav ******************/
+.nav__categoria {
+    /* background: green; */
+    margin: 80px 24px 16px 24px;
+    display: flex;
+    overflow-x: scroll;
+    gap: 14px;
+}
+
+.nav__categoria li {
+    background: var(--color-11);
+    flex: 1;
+    list-style: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav__categoria li a:nth-child(1){
+    width: 87px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav__categoria li a:nth-child(2){
+    width: 83px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav__categoria li a:nth-child(3){
+    width: 53px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav__categoria li a:nth-child(3){
+    width: 94px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__categoria li a {
+    /* background: yellow; */
+    text-decoration: none;
+    color: var(--color-6);
+    font-family: "Inter_18pt-Medium";
+    font-size: 16px;
+}
+
+li.select {
+    background: var(--color-1);
+}
+
+li.select a {
+    color: var(--color-9);
+}
+
+li:active {
+    background: var(--color-1);
+}
+
+li:active a {
+    color: var(--color-9);
+}
+
+/******************************************/
