@@ -4,6 +4,9 @@ padding: 0;
 margin: 0;
 box-sizing: border-box;
 }
+body{
+  background-color: #f9f9f9;
+}
 /****************************** HEADER ********************************/
 header{
     width: 188px;
@@ -203,4 +206,49 @@ header h1{
 .add-item{
     font-size: 14px;
     font-family: "Sora-SemiBold";
+}
+
+
+.line-2{
+  width: 375;
+  height: 4px;
+}
+
+
+.descuento{
+  background-color: var(--color-8);
+  display: flex;
+  width: 327px;
+  height: 56px;
+  margin-top: 16px;
+  margin-left: 24px;
+  margin-right: 24px;
+  border-radius: 16px;
+}
+
+.text{
+  display: flex;
+}
+
+.text {
+  width: 149px;
+  height: 21px;
+  margin-top: 17.5px;
+  margin-left: 16px;
+  font-family: "Sora-SemiBold";
+  font-size: 14px;
+}
+
+.descuento-img{
+  width: 20px;
+  height: 20px;
+  margin-top: 18px;
+  margin-left: 16px;
+}
+
+.flecha-derecha-img{
+  width: 20px;
+  height: 20px;
+  margin-top: 18px;
+  margin-left: 90px;
 }
