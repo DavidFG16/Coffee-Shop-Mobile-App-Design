@@ -188,7 +188,7 @@ main{
 /**************** nav ******************/
 .nav__categoria {
     /* background: green; */
-    margin: 80px 24px 16px 24px;
+    margin: 80px 24px 16px 0px;
     display: flex;
     overflow-x: scroll;
     gap: 14px;
@@ -257,3 +257,39 @@ li:active a {
 }
 
 /******************************************/
+/****************Cards********************/
+.card-container{
+    width: 327px;
+    height: 500px;
+    background-color: var(--color-9);
+}
+.card{
+    width: 156px;
+    height: 238px;
+    padding: 8px 8px 12px 8px;
+    border-radius: 16px;
+    background-color: var(--color-10);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-image{
+    border-radius: 8px;
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 8px 37px 8px 0px;
+}
+.card-title{
+    font-family: "Sora-semiBold";   
+    font-size: 16px;
+    color: var(--color-12);
+}
+.card-text{
+    font-family: "Sora-Regular";
+    font-size: 12px;
+    color: var(--color-6);
+}
