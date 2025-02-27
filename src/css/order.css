@@ -1,0 +1,254 @@
+@import url(variables.css);
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+  background-color: #f9f9f9;
+}
+/****************************** HEADER ********************************/
+header{
+    width: 188px;
+    height: 44px;
+    margin-top: 20px;
+    margin-left: 24px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Sora-SemiBold";
+}
+
+header a{
+    display: flex;
+    justify-items: center;
+    width: 44px;
+    height: 44px;
+}
+
+header img{
+    margin: 10px;
+}
+
+header h1{
+    font-size: 16px;
+    margin-top: 12.5px;
+    margin-left: 95px;
+    width: 49px;
+    height: 19px;
+}
+
+/****************************** MAIN **************************************/
+.entrega-contenedor{
+    display:flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+.entrega{
+    background-color: var(--color-16);
+    display: flex;
+    width: 327px;
+    height: 43px;
+    border-radius: 12px;
+    font-size: 16px;
+}
+
+.deliver{
+    background-color: var(--color-1);
+    margin: 4px;
+    width: 153px;
+    height: 35px;
+    border-radius: 8px;
+    font-family: "Sora-SemiBold";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deliver a{ 
+    color: var(--color-16);
+    text-decoration: none;
+}
+
+.pick-up{
+    margin: 4px;
+    width: 153px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Sora-Regular";
+}
+.pick-up a{
+    color: var(--color-15);
+    text-decoration: none;
+}
+
+.dirrecion{
+    /* width: 315px;
+    height: 79px; */
+    margin-left: 24px;
+    margin-top: 24px;
+}
+
+.delivery-text{
+    font-family: "Sora-SemiBold";
+    font-size: 16px;
+}
+
+.location{
+    font-family: "Sora-SemiBold";
+    font-size: 14px;
+}
+
+.location-text{
+    margin-top: 16px;
+}
+
+.specific-location{
+    font-family: "Sora-Regular";
+    font-size: 12px;
+    color: var(--color-8);
+}
+
+
+.edit-and-addNote {
+    display: flex;
+    gap: 8px; 
+    font-family: "Sora-Regular";
+    font-size: 12px;
+    margin-top: 16px;
+    width: 229px;
+    height: 26px;
+    color: var(--color-3);
+  }
+  
+  .edit-and-addNote a {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border: 1px solid var(--color-16);
+    border-radius: 16px;
+    text-decoration: none;
+  }
+  
+  .edit-and-addNote a img {
+    width: 14px;
+    height: 14px;
+    margin-left: 12px;
+  }
+  
+  .edit-and-addNote a:hover {
+    background-color: var(--color-4); 
+  }
+
+  .edit-and-addNote a.edit-delivery{
+    width: 120px;
+    height: 26px;
+  }
+  .edit-and-addNote a.edit-delivery p{
+    width: 78px;
+    height: 14px;
+  }
+  
+
+  .edit-and-addNote a.add-note{
+    width: 101px;
+    height: 26px;
+  }
+
+  .line-1{
+    width: 295px;
+    margin-left: 40px;
+  }
+
+
+  .detalles-pedido{
+    display: flex;
+    margin-top: 16px;
+    margin-left: 24px;
+  }
+
+  .detalles-pedido img{
+    width: 54px;
+    height: 54px;
+    border-radius: 8px;
+  }
+
+  .detail-text{
+    margin-left: 16px;
+    margin-top: 6px;
+  }
+
+  .detail-text h1{
+    font-family: "Sora-SemiBold";
+    font-size: 16px;
+  }
+  .detail-text p{
+    font-family: "Sora-Regular";
+    font-size: 12px;
+    color: var(--color-10);
+  }
+
+.add-item{
+    display: flex;
+    width: 90px;
+    height: 24px;
+    margin-left: 64px;
+    margin-top: 15px;
+    gap: 18px;
+}
+
+.add-item img{
+    width: 24px;
+    height: 24px;
+}
+
+.add-item{
+    font-size: 14px;
+    font-family: "Sora-SemiBold";
+}
+
+
+.line-2{
+  width: 375;
+  height: 4px;
+}
+
+
+.descuento{
+  background-color: var(--color-16);
+  display: flex;
+  width: 327px;
+  height: 56px;
+  margin-top: 16px;
+  margin-left: 24px;
+  margin-right: 24px;
+  border-radius: 16px;
+}
+
+.text{
+  display: flex;
+}
+
+.text {
+  width: 149px;
+  height: 21px;
+  margin-top: 17.5px;
+  margin-left: 16px;
+  font-family: "Sora-SemiBold";
+  font-size: 14px;
+}
+
+.descuento-img{
+  width: 20px;
+  height: 20px;
+  margin-top: 18px;
+  margin-left: 16px;
+}
+
+.flecha-derecha-img{
+  width: 20px;
+  height: 20px;
+  margin-top: 18px;
+  margin-left: 90px;
+}
