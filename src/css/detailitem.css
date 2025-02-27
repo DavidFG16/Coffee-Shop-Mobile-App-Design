@@ -6,7 +6,8 @@
 }
 
 body{
-    background-color: var(--color-12);
+    background: var(--color-16);
+    background: var(--color-17);  
 }
 
 header{
