@@ -6,8 +6,8 @@
 }
 
 body{
-    background: var(--color-16);
-    background: var(--color-17);  
+    background: var(--color-14);
+    background: var(--color-20);  
 }
 
 header{
@@ -19,7 +19,7 @@ header{
 
 header p{
     font-family: "Sora-SemiBold";
-    color: var(--color-9);
+    color: var(--color15);
 }
 
 header img:first-child{
@@ -61,13 +61,13 @@ main .coffee_atributes .Name_Coffee{
 main .coffee_atributes .Name_Coffee h1{
     font-family: "Sora-semiBold";
     font-size: 20px;
-    color: var(--color-9);
+    color: var(--color-19);
 }
 
 main .coffee_atributes .Name_Coffee p{
     font-family: "Sora-Regular";
     font-size: 12px;
-    color: var(--color-10);
+    color: var(--color-8);
     margin-top: 4px;
 }
 
@@ -91,7 +91,7 @@ main .coffee_atributes .Name_Coffee .rating .rating_numbers{
 }
 
 main .coffee_atributes .Name_Coffee .rating .rating_numbers p:first-child{
-    color: var(--color-11);
+    color: var(--color-20);
     font-size: 16px;
     font-family: "Sora-semiBold";
 }
@@ -110,7 +110,7 @@ main .coffee_atributes .features{
 }
 main .coffee_atributes .features img{
     padding: 12px;
-    background-color: var(--color-13);
+    background-color: var(--color-18);
     border-radius: 12px;
 }
 
@@ -123,20 +123,20 @@ main .section_description{
 main .section_description p{
     font-family: "Sora-SemiBold";
     font-size: 16px;
-    color: var(--color-9);
+    color: var(--color-19);
 }
 
 main .section_description summary{
     font-family: "Sora-Light";
     font-size: 14px;
-    color: var(--color-10);
+    color: var(--color-8);
     line-height: 150%;
 }
 
 main .section_description details p {
     font-family: "Sora-Light";
     font-size: 14px;
-    color: var(--color-10);
+    color: var(--color-8);
     line-height: 150%;
 }
 
@@ -162,7 +162,7 @@ details>summary {
 .size_section p{
     font-family: "Sora-semiBold"; 
     font-size: 16px;
-    color: var(--color-9);
+    color: var(--color-19);
 
 }
 
@@ -174,9 +174,9 @@ details>summary {
 .size_section .size_selector a{
     font-family: "Sora-Regular";
     font-size: 14px;
-    color: var(--color-9);
+    color: var(--color-19);
     text-decoration: none;
-    background-color: var(--color-14);
+    background-color: var(--color-7);
     /* width: 96px;
     height: 41px; */
     border-radius: 12px;
