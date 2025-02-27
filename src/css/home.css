@@ -188,7 +188,7 @@ main{
 /**************** nav ******************/
 .nav__categoria {
     /* background: green; */
-    margin: 80px 19px 24px 0px;
+    margin: 80px 19px 24px 10px;
     display: flex;
     overflow-x: scroll;
     gap: 14px;
@@ -258,14 +258,14 @@ li:active a {
 
 /******************************************/
 /****************Cards********************/
-.card-container1{
+.card-container{
     width: 327px;
     height: 500px;
     background-color: var(--color-9);
     display: flex;
-    flex-direction: row;
     gap: 20px;
-    margin: 0 auto;
+    margin-top: 0 auto;
+    flex-direction: row;
 }
 .card{
     width: 156px;
@@ -275,7 +275,6 @@ li:active a {
     background-color: var(--color-9);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 .card-content{
     display: flex;
@@ -295,7 +294,7 @@ li:active a {
     margin-top: 4px;
 
 }
-.card-image{
+.card-image1{
     background-image: url("../storage/img/Image-Coffee-2.png");
     background-size: cover;
     height: 500px;
@@ -305,6 +304,33 @@ li:active a {
     background-position: center;
 }
 
+.card-image2{
+    background-image: url("../storage/img/Image-Coffee-3.png");
+    background-size: cover;
+    height: 500px;
+    width: 140px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card-image3{
+    background-image: url("../storage/img/Image-Coffee-4.png");
+    background-size: cover;
+    height: 500px;
+    width: 140px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card-image4{
+    background-image: url("../storage/img/Image-Coffee-5.png");
+    background-size: cover;
+    height: 500px;
+    width: 140px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .context-image{
     width: 51px;
     height: 28px;
@@ -337,17 +363,20 @@ li:active a {
     background-color: var(--color-1);
     border-radius: 8px;
 }
-.card-image2{
-    background-image: url("../storage/img/Image-Coffee-3.png");
-    background-size: cover;
-    height: 500px;
-    width: 140px;
-    border-radius: 8px;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 .context-image p{
     font-family: "Sora-SemiBold";
     font-size: 8px;
     color: var(--color-9);
+}
+.cards-1{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+.cards-2{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
 }
