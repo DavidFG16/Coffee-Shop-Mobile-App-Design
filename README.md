@@ -12,7 +12,7 @@ Bienvenido a **Coffee App**, una aplicación web diseñada para los amantes del 
 
 Aquí tienes una captura de pantalla de la aplicación en alta concentración:
 
-![image-20250228122813795](/home/camper/.config/Typora/typora-user-images/image-20250228122813795.png)
+![image-20250228122813795](./screenshots/generalPages.png)
 
 
 
@@ -37,7 +37,7 @@ La primera pantalla que el usuario ve. Presenta un **mensaje inspirador** sobre 
 
 🖼 **Ejemplo:**
 
-![image-20250228123051521](/home/camper/.config/Typora/typora-user-images/image-20250228123051521.png)
+![image-20250228123051521](./screenshots/page1.png)
 
 🔹 **Elementos clave:**
 ✅ Fondo oscuro con una imagen atractiva de café y granos.
@@ -53,7 +53,7 @@ Pantalla principal donde el usuario **explora y selecciona** diferentes tipos de
 
 🖼 **Ejemplo:**
 
-![image-20250228123106607](/home/camper/.config/Typora/typora-user-images/image-20250228123106607.png)
+![image-20250228123106607](./screenshots/page2.png)
 
 🔹 **Elementos clave:**
 ✅ **Barra de búsqueda** para encontrar cafés rápidamente.
@@ -70,7 +70,7 @@ Muestra detalles de un café seleccionado, permitiendo al usuario elegir el tama
 
 🖼 **Ejemplo:**
 
-![image-20250228123121520](/home/camper/.config/Typora/typora-user-images/image-20250228123121520.png)
+![image-20250228123121520](./screenshots/page3.png)
 
 🔹 **Elementos clave:**
 ✅ Imagen grande del café seleccionado.
@@ -88,7 +88,7 @@ Pantalla donde el usuario confirma su dirección de entrega y revisa el resumen 
 
 🖼 **Ejemplo:**
 
-![image-20250228123137126](/home/camper/.config/Typora/typora-user-images/image-20250228123137126.png)
+![image-20250228123137126](./screenshots/page4.png)
 
 🔹 **Elementos clave:**
 ✅ **Opciones de entrega o recogida**.
@@ -106,7 +106,7 @@ Permite al usuario rastrear el estado de su pedido en tiempo real.
 
 🖼 **Ejemplo:**
 
-![image-20250228123150208](/home/camper/.config/Typora/typora-user-images/image-20250228123150208.png)
+![image-20250228123150208](./screenshots/page5.png)
 
 🔹 **Elementos clave:**
 ✅ **Mapa interactivo** con la ruta de entrega.
@@ -127,7 +127,7 @@ Permite al usuario rastrear el estado de su pedido en tiempo real.
 
 📸 **Captura de los contribuyentes y tecnologías usadas:**
 
-![image-20250228122845684](/home/camper/.config/Typora/typora-user-images/image-20250228122845684.png)
+![image-20250228122845684](./screenshots/contributors.png)
 
 ✅ **Lenguajes utilizados en el proyecto:**
 
