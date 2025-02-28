@@ -20,6 +20,7 @@ header{
 header p{
     font-family: "Sora-SemiBold";
     color: var(--color15);
+    font-size: 16px;
 }
 
 header img:first-child{
@@ -61,7 +62,7 @@ main .coffee_atributes .Name_Coffee{
 main .coffee_atributes .Name_Coffee h1{
     font-family: "Sora-semiBold";
     font-size: 20px;
-    color: var(--color-19);
+    color: var(--color-15);
 }
 
 main .coffee_atributes .Name_Coffee p{
@@ -123,7 +124,7 @@ main .section_description{
 main .section_description p{
     font-family: "Sora-SemiBold";
     font-size: 16px;
-    color: var(--color-19);
+    color: var(--color-12);
 }
 
 main .section_description summary{
@@ -162,7 +163,7 @@ details>summary {
 .size_section p{
     font-family: "Sora-semiBold"; 
     font-size: 16px;
-    color: var(--color-19);
+    color: var(--color-12);
 
 }
 
@@ -235,6 +236,6 @@ footer a{
     border-radius: 16px;
     line-height: 150%;
     text-decoration: none;
-    color: var(--color-14);
+    color: var(--color-7);
 }
 
