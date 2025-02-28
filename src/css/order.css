@@ -79,8 +79,20 @@ header h1{
     font-family: "Sora-Regular";
 }
 .pick-up a{
-    color: var(--color-15);
     text-decoration: none;
+    color: var(--color-15);
+}
+.pick-up a:hover{
+    color: var(--color-7);
+    width: 153px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Sora-Regular";
+    margin: 4px;
+    background-color: var(--color-1);
+    border-radius: 10px;
 }
 
 .dirrecion{
@@ -377,6 +389,9 @@ header h1{
 
 .finish-buy button:hover{
   background-color: var(--color-22);
-  
 }
+.finish-buy button a{
+  color: var(--color-7);
+  text-decoration: none;
 
+}
