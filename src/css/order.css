@@ -44,7 +44,7 @@ header h1{
     margin-top: 24px;
 }
 .entrega{
-    background-color: var(--color-16);
+    background-color: var(--color-14);
     display: flex;
     width: 327px;
     height: 43px;
@@ -65,7 +65,7 @@ header h1{
 }
 
 .deliver a{ 
-    color: var(--color-16);
+    color: var(--color-7);
     text-decoration: none;
 }
 
@@ -79,7 +79,7 @@ header h1{
     font-family: "Sora-Regular";
 }
 .pick-up a{
-    color: var(--color-15);
+    color: var(--color-18);
     text-decoration: none;
 }
 
@@ -107,7 +107,7 @@ header h1{
 .specific-location{
     font-family: "Sora-Regular";
     font-size: 12px;
-    color: var(--color-8);
+    color: var(--color-10);
 }
 
 
@@ -126,7 +126,7 @@ header h1{
     display: flex;
     align-items: center;
     gap: 4px;
-    border: 1px solid var(--color-16);
+    border: 1px solid var(--color-10);
     border-radius: 16px;
     text-decoration: none;
   }
@@ -210,13 +210,13 @@ header h1{
 
 
 .line-2{
-  width: 375;
+  width: 375px;
   height: 4px;
 }
 
 
-.descuento{
-  background-color: var(--color-16);
+ .descuento{
+  background-color: var(--color-7);
   display: flex;
   width: 327px;
   height: 56px;
@@ -224,6 +224,7 @@ header h1{
   margin-left: 24px;
   margin-right: 24px;
   border-radius: 16px;
+  border: 1px solid var(--color-11);
 }
 
 .text{
@@ -231,19 +232,20 @@ header h1{
 }
 
 .text {
-  width: 149px;
+  width: 300px;
   height: 21px;
   margin-top: 17.5px;
   margin-left: 16px;
   font-family: "Sora-SemiBold";
   font-size: 14px;
+  align-items: end;
 }
 
 .descuento-img{
   width: 20px;
   height: 20px;
   margin-top: 18px;
-  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .flecha-derecha-img{
@@ -251,4 +253,130 @@ header h1{
   height: 20px;
   margin-top: 18px;
   margin-left: 90px;
+} 
+
+
+
+.total-pedido{
+  width: 153px;
+  height: 24px;
+  margin-left: 24px;
+  margin-top: 24px;
 }
+.suma-de-pedido{
+  font-family: "Sora-SemiBold";
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+.detalles{
+  display: flex;
+  background-color: bisque;
+  width: 327px;
+  height: 50px;
+}
+.content-delivery{
+  font-family: "Sora-Regular";
+  font-weight: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.price {
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  gap: 247px;
+}
+.price h1{
+  font-family: "Sora-SemiBold";
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  gap: 247px;
+}
+
+.delivery{
+  font-size: 14px;
+  display: flex;
+  width: 327px;
+  height: 21px;
+  gap: 160px;
+}
+
+.price-delivery{
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+
+}
+.delivery h1:nth-of-type(1){
+  font-family: "Sora-Regular";
+  font-size: 14px;
+  text-decoration: line-through;
+  width: 36px;
+  height: 21px;
+  color: var(--color-12);
+}
+.delivery h1:nth-of-type(2){
+  font-family: "Sora-SemiBold" ;
+  font-size: 14px;
+  width: 33px;
+  height: 21px;
+}
+
+ .metodo-pago{
+  width: 375px;
+  height: 56px;
+  margin-top: 80px;
+  display: flex;
+}
+
+.wallet{
+  display: flex;
+  width: 327px;
+  height: 39px;
+  margin-left: 24px;
+  margin-top: 16px;
+  gap: 16px;
+}
+.wallet h1{
+  font-family: "Sora-SemiBold";
+  font-size: 14px;
+}
+.wallet h3{
+  font-family: "Sora-SemiBlond";
+  font-size: 12px;
+  color: var(--color-1);
+}
+.wallet img:nth-of-type(1){
+  width: 20px;
+  height: 20px;
+  margin-top: 9.5px;
+}
+.wallet img:nth-of-type(2){
+  width: 24px;
+  height: 24px;
+  margin-left: 160px;
+  margin-top: 7.5px;
+}
+
+.finish-buy button{
+  background-color: var(--color-1);
+  width: 327px;
+  height: 56px;
+  margin-left: 24px;
+  margin-top: 8px;
+  border-radius: 16px;
+  border: none;
+  font-family: "Sora-SemiBold";
+  font-size: 16px;
+  color: var(--color-7);
+}
+
+.finish-buy button:hover{
+  background-color: var(--color-17);
+  
+}
+
