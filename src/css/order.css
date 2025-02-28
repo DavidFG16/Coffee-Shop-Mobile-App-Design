@@ -79,7 +79,7 @@ header h1{
     font-family: "Sora-Regular";
 }
 .pick-up a{
-    color: var(--color-18);
+    color: var(--color-15);
     text-decoration: none;
 }
 
@@ -376,7 +376,7 @@ header h1{
 }
 
 .finish-buy button:hover{
-  background-color: var(--color-17);
+  background-color: var(--color-22);
   
 }
 
