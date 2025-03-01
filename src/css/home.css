@@ -192,7 +192,7 @@ main{
 /**************** nav ******************/
 .nav__categoria {
     /* background: green; */
-    margin: 90px 0px 24px 10px;
+    margin: 90px 20px 24px 20px;
     display: flex;
     overflow-x: scroll;
     gap: 12px;

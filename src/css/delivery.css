@@ -22,7 +22,7 @@ header p{
     font-size: 14px;
     color: var(--color-6);
     text-decoration: none  ;
-    padding: 20px;
+    padding: 5px;
 }
 .header__logo{
     /* background-color: red; */
