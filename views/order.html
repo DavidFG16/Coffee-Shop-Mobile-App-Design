@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <a href="#"><img src="../src/storage/img/arrow-left.svg" alt="regresar"></a>
+        <a href="./detailitem.html"><img src="../src/storage/img/arrow-left.svg" alt="regresar"></a>
         <h1>Order</h1>
     </header>
 
@@ -67,19 +67,22 @@
 
 
         <section class="total-pedido">
-            <h1>Payment Summary</h1>
+            <h1 class="suma-de-pedido">Payment Summary</h1>
 
-            <div class="detalles">
+                <div class="content-delivery">
 
-                <div class="price">
-                    <h1>Price</h1>
-                    <h1>$ 4.53</h1>
-                </div>
+                    <div class="price">
+                        <p>Price</p>
+                        <h1>$4.53</h1>
+                    </div>
 
-                <div class="delivery">
-                    <h1>Delivery Fee</h1>
-                    <h1>$ 2.0</h1>
-                    <h1>$ 1.0</h1>
+                    <div class="delivery">
+                        <p>Delivery Fee</p>
+                        <div class="price-delivery">
+                        <h1>$ 2.0</h1>
+                        <h1>$ 1.0</h1>
+                        </div>
+                    </div>
                 </div>
             
             </div>
@@ -90,16 +93,18 @@
         <section class="metodo-pago">
             <div class="wallet">
                 <img src="../src/storage/img/Wallet.png" alt="Wallet">
-                <h1>Cash/Wallet</h1>
-                <h3>$ 5.53</h1>
-            </div>
-            <div class="option-payment">
-               <img src="../src/storage/img/Arrow-Down.png" alt=""> 
-            </div>
-            <div class="button-order">
-                <h1>Order</h1>
+                    <div class="content-text">
+                        <h1>Cash/Wallet</h1>
+                        <h3>$ 5.53</h1>
+                    </div>
+                <img src="../src/storage/img/Option-payment.svg" class="imagen-icono"> 
             </div>
         </section>
+
+        <div class="finish-buy">
+            <button><a href="./delivery.html">Order</a></button>
+        </div>
+
     </footer>
 </body>
 </html>

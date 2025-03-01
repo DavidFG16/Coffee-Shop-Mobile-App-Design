@@ -183,7 +183,6 @@ main{
     height: 100%;
     position: relative;
     padding: 20px;
-    overflow: hidden;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -193,11 +192,10 @@ main{
 /**************** nav ******************/
 .nav__categoria {
     /* background: green; */
-    margin: 80px 10px 24px 70px;
+    margin: 80px 10px 24px 30px;
     display: flex;
     overflow-x: scroll;
-    gap: 14px;
-    flex-direction: row;
+    gap: 12px;
 }
 
 .nav__categoria li {
@@ -205,50 +203,28 @@ main{
     flex: 1;
     list-style: none;
     border-radius: 6px;
+    min-width: 89px;
+    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .nav__categoria li a:nth-child(1){
-    width: 87px;
-    height: 29px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: "Sora-SemiBold";
-    font-size: 14px;
 }
 .nav__categoria li a:nth-child(2){
-    width: 83px;
-    height: 29px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: "Sora-Regular";
-    font-size: 14px;
 }
 .nav__categoria li a:nth-child(3){
-    width: 53px;
-    height: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: "Sora-Regular";
-    font-size: 14px;
 }
 .nav__categoria li a:nth-child(4){
-    width: 94px;
-    height: 29px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: "Sora-Regular";
-    font-size: 14px;
 }
 
 .nav__categoria li a {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
     color: var(--color-3);
 }
 
@@ -297,6 +273,9 @@ li:active a {
     font-family: "Sora-semiBold";   
     font-size: 16px;
     color: var(--color-12);
+}
+.card-content a{
+    text-decoration: none;
 }
 .card-content p{
     font-family: "Sora-Regular";
