@@ -1,3 +1,4 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
 @import url(variables.css);
 *{
     padding: 0;
@@ -85,4 +86,64 @@ div{
     align-items: center;
     padding: 12px 24px;
     margin-left: 5px;
+}
+.coffee-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container__img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coffee-animation {
+    width: 250px;
+    height: auto;
+}
+
+.coffee-steam {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    width: 40px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.3);
+    filter: blur(15px);
+    border-radius: 50%;
+    opacity: 0;
+    animation: steamRise 3s ease-in-out infinite;
+}
+
+/* Vapor flotando en diferentes posiciones */
+.steam1 {
+    left: 40%;
+    animation-delay: 1s;
+}
+.steam2 {
+    left: 50%;
+    animation-delay: 2s;
+}
+.steam3 {
+    left: 60%;
+    animation-delay: 3s;
+}
+
+/* Animación del vapor */
+@keyframes steamRise {
+    0% {
+        opacity: 0;
+        transform: translateY(20px) scaleX(1);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(-10px) scaleX(1.2);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-40px) scaleX(0.8);
+    }
 }
