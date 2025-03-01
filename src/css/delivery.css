@@ -17,6 +17,13 @@ header{
     justify-content: center;
     align-items: center;
 }
+header p{
+    font-family: "Sora-SemiBold";
+    font-size: 14px;
+    color: var(--color-6);
+    text-decoration: none  ;
+    padding: 20px;
+}
 .header__logo{
     /* background-color: red; */
     width: 327px;

@@ -144,6 +144,7 @@ Permite al usuario rastrear el estado de su pedido en tiempo real.
 
 💡 **Alternativa:** Puede descargar el código y abrir `index.html` en su navegador para ver la aplicación funcionando.
 
+✅ **Navegacion entre el maps del delivery** en cada icono de flecha redirige a ordenes diferentes.
 ------
 
 📌 *Hecho con ❤️ y mucho café.* ☕
