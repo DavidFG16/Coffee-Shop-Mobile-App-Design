@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    /* background-color: var(--color-11); */
+    /* background-color: var(--color-8); */
 }
 /********** header ***********/
 header{
@@ -30,7 +30,7 @@ header{
     top: 68px;
 }
 .header__logo img{
-    background-color: var(--color-7);
+    background-color: var(--color-16);
     padding: 10px;
     border-radius: 10px;
 }
@@ -51,12 +51,12 @@ main{
     position: relative;
 }
 .main{
-    background-color: var(--color-8);
+    background-color: var(--color-7);
     border-radius: 15px 15px 0 0;
     padding: 0 24px;
 }
 .main__top__header{
-    background-color: var(--color-8);
+    background-color: var(--color-7);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,7 +69,7 @@ main{
     border-radius: 5px;
 }
 .main__top__text{
-    background-color: var(--color-8);
+    background-color: var(--color-7);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,7 +81,7 @@ main{
     font-family: "Sora-SemiBold";
     font-size: 16px;
     line-height: 150%;
-    color: var(--color-9);
+    color: var(--color-15);
 }
 .main__top__text p{
     /* background-color: rgb(220, 122, 122); */
@@ -89,7 +89,7 @@ main{
     font-size: 12px;
     line-height: 150%;
     margin-top: 2px;
-    color: var(--color-10);
+    color: var(--color-23);
 }
 .main__top__text strong{
     /* background-color: rgb(132, 220, 122); */
@@ -97,7 +97,7 @@ main{
     font-size: 12px;
     line-height: 150%;
     margin-top: 2px;
-    color: var(--color-9);
+    color: var(--color-15);
 }
 /** Queda pendiente hacerla con Javascript **/
 /* .main__top progress{
@@ -110,7 +110,7 @@ main{
     background-color: rgb(18, 187, 55);
 } */
 .main__top__bar{ /* Cada linea tiene 10px entre ellas */
-    background-color: var(--color-8);
+    background-color: var(--color-7);
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 16px;
@@ -126,11 +126,11 @@ main{
 /* .main__top__bar div:nth-child(1),
 .main__top__bar div:nth-child(2),
 .main__top__bar div:nth-child(3){
-    background-color: var(--color-6);
+    background-color: var(--color-21);
 } */
 /** Forma corta **/
 .main__top__bar > div:nth-child(-n+3) {
-    background-color: var(--color-6);
+    background-color: var(--color-21);
   }
 .main__middle{
     /* background-color: rgb(220, 122, 212); */
@@ -165,14 +165,14 @@ main{
     font-size: 14px;
     line-height: 150%;
     margin-bottom: 4px;
-    /* color: var(--color-9); */
+    /* color: var(--color-15); */
 }
 .main__middle__text p:last-child{
     /* background-color: rgb(186, 172, 230); */
     font-family:"Sora-Light" ;
     font-size: 12px;
     line-height: 150%;
-    color: var(--color-11);
+    color: var(--color-8);
 }
 .main__bottom{
     /* background-color: rgb(129, 220, 122); */
@@ -213,7 +213,7 @@ main{
     font-family:"Sora-Regular" ;
     font-size: 12px;
     line-height: 150%;
-    color: var(--color-11);
+    color: var(--color-8);
 }
 .main__bottom__button{
     /* background-color: rgb(218, 116, 116); */

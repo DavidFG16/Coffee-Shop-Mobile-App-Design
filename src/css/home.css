@@ -1,0 +1,417 @@
+@import url(../css/variables.css);
+
+/**************** Header ******************/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+header{
+    background: linear-gradient(180deg, #111111 0%, #313131 100%);
+    width: 100%;
+    height: 280px;
+    display: flex;
+    align-items: center;    
+    flex-direction: column;
+}
+/*********************Location*****************************/
+.location_d{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 24px 190px 24px 24px;
+}
+.location_p{
+    font-family: "Sora-Regular";
+    font-size: 12px;
+    color: var(--color-8);
+}
+.location_a{
+    display: flex;
+    flex-direction: row;
+    width: 161px;
+    height: 21px;
+    gap: 4px;
+}
+.location_a p{
+    font-family: "Sora-SemiBold";
+    font-size: 14px;
+    color: var(--color-11);
+}
+/**************************************************/
+/**************** Form Busqueda ******************/
+.form__busqueda {
+    padding: 0px 24px 0px 0px;
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+.input__logo {
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.input__logo::before {
+    content: url(../storage/img/Search-icon.png);
+    position: absolute;
+    padding-left: 10px;
+}
+
+.form__busqueda input[type="text"] {
+    box-sizing: content-box;
+    flex: 1;
+    height: 100%;
+    font-family: "Sora-Regular";
+    font-size: 14px;
+    color: var(--color-4);
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    padding: 0 10px 0 40px;
+    box-shadow: 0px 4px 19px var(--color-shadow-1);
+    background-color: var(--color-12);
+}
+
+.form__busqueda input[type="text"]::placeholder {
+    color: var(--color-8);
+}
+
+.input__filtro {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.input__filtro::after {
+    content: url(../storage/img/Options-icon.png);
+    width: 24px;
+    height: 24px;
+    display: flex;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.form__busqueda input[type="submit"] {
+    flex: 1;
+    width: 52px;
+    height: 52px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    background: var(--color-1);
+}
+/**************** Banner ******************/
+.banner{
+    margin-top: 65px;
+    margin-left: 28px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    background: url(../storage/img/Banner1.png) no-repeat;
+    width: 327px;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    border-radius: 16px;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    width: 204px;
+    height: 114px;
+    margin: 13px 99px 13px 24px;
+}
+.banner a{
+    font-family: "Sora-SemiBold";
+    font-size: 14px;
+    color: var(--color-7);
+    text-decoration: none;
+    width: 60px;
+    height: 26px;
+    background-color: var(--color-13);
+    border-radius: 8px;
+    padding: 4px 6px 4px 6px;
+}
+.description__text{
+    margin-top: 8px;
+    width: 204px;
+    height: 80px;
+    position: relative;
+}
+.description__text__box1 p{
+    font-family: "Sora-SemiBold";
+    font-size: 32px;
+    color: var(--color-7);
+    top: 0;
+    position: relative; /* Añadimos posición relativa para el texto */
+    z-index: 4; /* Aseguramos que el texto esté encima de la caja negra */
+}
+.description__text__box1 img{
+    position: absolute;
+    top: 15px;
+    left: 0;
+    z-index: 2;
+}
+.description__text__box2 p{
+    font-family: "Sora-SemiBold";
+    font-size: 32px;
+    color: var(--color-7);
+    top: 0;
+    position: relative; /* Añadimos posición relativa para el texto */
+    z-index: 4; /* Aseguramos que el texto esté encima de la caja negra */
+}
+.description__text__box2 img{
+    position: absolute;
+    top: 54px;
+    left: 0;
+    z-index: 2;
+}
+/*************************/
+/**************************************************/
+/**************** Main **************************/
+main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/**************** nav ******************/
+.nav__categoria {
+    /* background: green; */
+    margin: 90px 20px 24px 20px;
+    display: flex;
+    overflow-x: scroll;
+    gap: 12px;
+}
+
+.nav__categoria li {
+    background: var(--color-11);
+    flex: 1;
+    list-style: none;
+    border-radius: 6px;
+    min-width: 89px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav__categoria li a:nth-child(1){
+    font-family: "Sora-SemiBold";
+}
+.nav__categoria li a:nth-child(2){
+    font-family: "Sora-Regular";
+}
+.nav__categoria li a:nth-child(3){
+    font-family: "Sora-Regular";
+}
+.nav__categoria li a:nth-child(4){
+    font-family: "Sora-Regular";
+}
+
+.nav__categoria li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: var(--color-3);
+}
+
+li.select {
+    background: var(--color-1);
+}
+
+li.select a {
+    color: var(--color-7);
+}
+
+li:active {
+    background: var(--color-1);
+}
+
+li:active a {
+    color: var(--color-7);
+}
+
+/******************************************/
+/****************Cards********************/
+.card-container{
+    width: 327px;
+    height: 500px;
+    background-color: var(--color-9);
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+}
+.card{
+    width: 156px;
+    height: 238px;
+    padding: 8px 8px 12px 8px;
+    border-radius: 16px;
+    background-color: var(--color-9);
+    display: flex;
+    flex-direction: column;
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 8px 37px 0px 0px;
+}
+.card-content h3{
+    font-family: "Sora-semiBold";   
+    font-size: 16px;
+    color: var(--color-12);
+}
+.card-content a{
+    text-decoration: none;
+}
+.card-content p{
+    font-family: "Sora-Regular";
+    font-size: 12px;
+    color: var(--color-8);
+    margin-top: 4px;
+
+}
+.card-image1{
+    background-image: url("../storage/img/Image-Coffee-2.png");
+    background-size: cover;
+    height: 500px;
+    width: 140px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card-image2{
+    background-image: url("../storage/img/Image-Coffee-3.png");
+    background-size: cover;
+    height: 500px;
+    width: 140px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card-image3{
+    background-image: url("../storage/img/Image-Coffee-4.png");
+    background-size: cover;
+    height: 500px;
+    width: 140px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card-image4{
+    background-image: url("../storage/img/Image-Coffee-5.png");
+    background-size: cover;
+    height: 500px;
+    width: 140px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.context-image{
+    width: 51px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 100px 89px;
+    gap: 5px;
+}
+.card-buttom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 140px;
+    height: 32px;
+    flex-direction: row;
+    padding: 0px 0px 0px 0px;
+}
+.card-buttom p{
+    font-family: "Sora-SemiBold";
+    font-size: 18px;
+    color: var(--color-6);
+}
+.icon-buttom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    background-color: var(--color-1);
+    border-radius: 8px;
+}
+.context-image p{
+    font-family: "Sora-SemiBold";
+    font-size: 8px;
+    color: var(--color-7);
+}
+.cards-1{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+.cards-2{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+/**************** Footer ******************/
+footer{
+    background-size: cover;
+    width: 100%;
+    height: 99px;
+    padding: 17px 50px 17px 30px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    bottom: -1px;
+    z-index: 10;
+    background-color: var(--color-7);
+}
+.div__izquierdo {
+    /* background: blue; */
+    display: flex;
+    gap:50px;
+    margin: 12px 30px 0px 15px;
+}
+
+.div__izquierdo a img{
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    cursor: pointer;
+
+}
+.div__derecho {
+    /* background: green; */
+    display: flex;
+    gap:50px;
+    margin: 12px 0px 0px 0px;
+}
+
+.div__derecho a img{
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+.icon-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
