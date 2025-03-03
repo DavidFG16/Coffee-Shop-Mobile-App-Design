@@ -165,14 +165,6 @@ Permite al usuario rastrear el estado de su pedido en tiempo real.
 
 ------
 
-## ⚠️ **Advertencia Importante**
-
-🚨 **PROFESOR, IMPORTANTE: NO SE PUDO DESPLEGAR EN GITHUB PAGES** 🚨
-
-🔴 **Motivo:** GitHub Pages **no permite publicar repositorios privados de forma gratuita**. Para desplegarlo, es necesario **pagar por GitHub Pro** o hacer el repositorio **público**.
-
-💡 **Alternativa:** Puede descargar el código y abrir `index.html` en su navegador para ver la aplicación funcionando.
-
 ✅ **Navegacion entre el maps del delivery** en cada icono de flecha redirige a ordenes diferentes.
 ------
 
