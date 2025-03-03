@@ -4,6 +4,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    /* background-color: var(--color-8); */
+}
 /********** header ***********/
 header{
     background-color: orange;
@@ -17,13 +20,6 @@ header{
     justify-content: center;
     align-items: center;
 }
-header p{
-    font-family: "Sora-SemiBold";
-    font-size: 14px;
-    color: var(--color-6);
-    text-decoration: none  ;
-    padding: 5px;
-}
 .header__logo{
     /* background-color: red; */
     width: 327px;
@@ -34,12 +30,9 @@ header p{
     top: 68px;
 }
 .header__logo img{
-    background-color: var(--color-7);
+    background-color: var(--color-16);
     padding: 10px;
     border-radius: 10px;
-}
-.header__logo a{
-    text-decoration: none;
 }
 .header__map{ /* La personalización mas profunda es con la API y Javascript */
     background-color: palevioletred;
@@ -53,6 +46,7 @@ header p{
 /****************************/
 /*********** main ***********/
 main{
+    background-color: yellow;
     border-radius: 24px 24px 0 0;
     position: relative;
 }
@@ -87,7 +81,7 @@ main{
     font-family: "Sora-SemiBold";
     font-size: 16px;
     line-height: 150%;
-    color: var(--color-9);
+    color: var(--color-15);
 }
 .main__top__text p{
     /* background-color: rgb(220, 122, 122); */
@@ -95,7 +89,7 @@ main{
     font-size: 12px;
     line-height: 150%;
     margin-top: 2px;
-    color: var(--color-10);
+    color: var(--color-23);
 }
 .main__top__text strong{
     /* background-color: rgb(132, 220, 122); */
@@ -103,7 +97,7 @@ main{
     font-size: 12px;
     line-height: 150%;
     margin-top: 2px;
-    color: var(--color-9);
+    color: var(--color-15);
 }
 /** Queda pendiente hacerla con Javascript **/
 /* .main__top progress{
@@ -132,7 +126,7 @@ main{
 /* .main__top__bar div:nth-child(1),
 .main__top__bar div:nth-child(2),
 .main__top__bar div:nth-child(3){
-    background-color: var(--color-6);
+    background-color: var(--color-21);
 } */
 /** Forma corta **/
 .main__top__bar > div:nth-child(-n+3) {
@@ -171,14 +165,14 @@ main{
     font-size: 14px;
     line-height: 150%;
     margin-bottom: 4px;
-    /* color: var(--color-9); */
+    /* color: var(--color-15); */
 }
 .main__middle__text p:last-child{
     /* background-color: rgb(186, 172, 230); */
     font-family:"Sora-Light" ;
     font-size: 12px;
     line-height: 150%;
-    color: var(--color-11);
+    color: var(--color-8);
 }
 .main__bottom{
     /* background-color: rgb(129, 220, 122); */
@@ -196,6 +190,9 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.main__bottom__img img{
+    /* background-color: rgb(184, 34, 7);   */
 }
 .main__bottom__text{
     /* background-color: rgb(218, 163, 116); */
@@ -216,7 +213,7 @@ main{
     font-family:"Sora-Regular" ;
     font-size: 12px;
     line-height: 150%;
-    color: var(--color-11);
+    color: var(--color-8);
 }
 .main__bottom__button{
     /* background-color: rgb(218, 116, 116); */
